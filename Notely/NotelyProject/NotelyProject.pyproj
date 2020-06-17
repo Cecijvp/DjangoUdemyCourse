@@ -57,6 +57,9 @@
     <Folder Include="NotelyProject\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\templates\app\create_note.html" />
+    <Content Include="app\templates\app\edit_note.html" />
+    <Content Include="app\templates\app\note_detail.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
