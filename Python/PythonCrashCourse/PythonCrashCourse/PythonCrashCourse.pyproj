@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>296c2aef-e07b-4f48-9eab-4e32a83ec48b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonCrashCourse.py</StartupFile>
+    <StartupFile>numbers.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="boolean.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numbers.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonCrashCourse.py" />
+    <Compile Include="string.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="variables.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
