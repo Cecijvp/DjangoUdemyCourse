@@ -24,11 +24,29 @@
     <Compile Include="boolean.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="dictionary.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="functions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ListDataType.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="looping.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="numbers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="operators.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonCrashCourse.py" />
     <Compile Include="string.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tuple.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="variables.py">
